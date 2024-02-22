@@ -1,0 +1,92 @@
+/* common css  */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  /* common css end  */
+
+/* banner st */
+  #banner .contains a{
+    padding: 18px 0 13px 32px;
+    background-color: #FFCC00;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-decoration: none;
+  }
+
+/* footer start */
+footer{
+    background-image: url(../IMAGES/Group\ 215.png);
+}
+
+.middle-content h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+}
+.middle-content p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: justify;
+color: #bbb9b9;
+}
+footer .last-content a{
+    padding: 18px 0 13px 32px;
+    background-color: #FFCC00;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #fff;
+    font-family: var(--font-family);
+}
+footer .last-content a i{
+    padding: 5px 33px 5px 11px;
+  
+}
+footer .first-row{
+    padding-top: 71px;
+}
+footer .icons a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #484848;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    transition: .5s;
+}
+footer .icons a:hover{
+    background-color: #FFCC00;
+}
+footer .second-row{
+    padding: 94px 0 85px 0;
+    color: #fff;
+}
+.second-row a{
+    color: #fff;
+}
+#banner .contains{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+
+/* footer end */
